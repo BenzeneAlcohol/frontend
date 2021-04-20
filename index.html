@@ -3,31 +3,35 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter&family=Lexend&display=swap" rel="stylesheet">
   <title>Frontend Mentor | Stats preview card component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
-  Get insights that help your business grow.
-
-  Discover the benefits of data analytics and make better decisions regarding revenue, customer 
-  experience, and overall efficiency.
-
-  10k+ companies
-  314 templates
-  12m+ queries
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+  <div class="container">
+    <div class="card">
+      <div class="text">
+        <div class="realt1"><h1>Get <span class="Check">insights</span> that help your buisiness grow.</h1></div>
+        <div class="realt2">Discover the benfits of data analyitcs and make better decisions regarding revenue, consumer experience, and overall efficeincy.</div>
+        <div class="realt3">
+          <div class="numbers">
+            <div class="number1">10k+</div>
+            <div class="number2">314</div>
+            <div class="number3">12M+</div>
+          </div>
+          <div class="names">
+            <div class="name1">COMPANIES</div>
+            <div class="name2">TEMPLATES</div>
+            <div class="name3">QUERIES</div>
+          </div>
+        </div>
+      </div>
+      <div class="imag">
+        <img src="image-header-desktop.jpg">
+      </div>
+    </div>
   </div>
 </body>
 </html>
